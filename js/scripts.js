@@ -1,6 +1,10 @@
-var drawTree = drawTree(10);
-    for (var i = 0 ; i < 10 ; i++ ); {
-        var star = string};
-            for (var j = 0 ; j < i++ ; j++ );{
-                var star = '*' };
-        console log(star);
+function drawTree(levels) {
+    var star = '';
+    for (var i = 0; i < levels; i++) {
+        var space = '';
+        star += '*';
+        console.log(space + star);
+        for (var j = levels; j > i; j--);
+    } 
+}
+drawTree(10);
